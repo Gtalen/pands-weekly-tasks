@@ -1,4 +1,5 @@
 #hello.py
 #exploring python variables and operators
-#Ebelechukwu Igwagu
-print ("Hello")
+#Autor: Ebelechukwu Igwagu
+print ("Hello world!")
+print("Hello Ebele")
