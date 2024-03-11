@@ -5,7 +5,8 @@ item1 = input ("Enter cost for item 1 in cent: ")
 item2 = input ("Enter cost for item 2 in cent: ")
 total = int(item1) + int(item2)
 euro =  (total/100)
-print ("€{:,}".format(euro))
+#{:.2f} formats the amount to 2 decimal places
+print ("€{:.2f}".format(euro))
 #using the locale function to set the currency used in a region
 import locale
 print(locale.setlocale(locale.LC_ALL, ''))
@@ -14,7 +15,7 @@ item1 = int (input ("Enter cost for item 1 in cent: "))
 item2 = int (input ("Enter cost for item 2 in cent: "))
 total = item1 + item2
 euro = (total/100)
-print ("€{:,}".format(euro))
+print ("€{:.2f}".format(euro))
 
 
 
